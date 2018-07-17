@@ -7,21 +7,21 @@ var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
 var axios = require("axios");
-var favicon = require("serve-favicon");
 
 // Require models
 var db = require("./models");
 
 // Port configuration for local/Heroku
-var PORT = process.env.PORT || process.argv[2] || 8080;
+var PORT = process.env.PORT || 8080;
 
-// Connect to the Mongo DB
-var MONGODB_URI = process.env.MONGODB_URI
-
-// process.env.MONGODB_URI;
+// Connect to Mongo DB
+var MONGODB_URI = process.env.MONGODB_URI;
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI);
+
+// Connect to Mongo DB
+// mongoose.connect("mongodb://localhost:27017/dodoArticlePopulatordb", { useNewUrlParser: true});
 
 // Choose port
 // var PORT = 3000;
@@ -40,8 +40,7 @@ app.use(express.static("public"));
 app.use(logger("dev"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Connect to Mongo DB
-// mongoose.connect("mongodb://localhost:27017/dodoArticlePopulatordb", { useNewUrlParser: true});
+
 
 // Routes
 

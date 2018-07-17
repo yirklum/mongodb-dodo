@@ -2,7 +2,7 @@
   "name": "mongodb-dodo",
   "version": "1.0.0",
   "description": "Dodo MongoDB Scraper",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/yirklum/mongodb-dodo/issues"
   },
-  "homepage": "https://github.com/yirklum/mongodb-dodo/",
+  "homepage": "https://github.com/yirklum/mongodb-dodo",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
