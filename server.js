@@ -16,7 +16,7 @@ var db = require("./models");
 var PORT = process.env.PORT || process.argv[2] || 8080;
 
 // Connect to the Mongo DB
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/dodoArticlePopulatordb";
+var MONGODB_URI = process.env.MONGODB_URI
 
 // process.env.MONGODB_URI;
 
