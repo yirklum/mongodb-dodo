@@ -25,7 +25,7 @@ $("#new-scrape").on("click", function() {
       }
   });
   
-// Set up onclick event for p tags
+// Set up onclick event for opening notes window
 $(document).on("click", ".article-output", function(e) {
     // Empty the notes section
     $("#notes").empty();
@@ -88,4 +88,3 @@ $(document).on("click", ".article-output", function(e) {
     $("#titleinput").val("");
     $("#bodyinput").val("");
   });
-  

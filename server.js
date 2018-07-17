@@ -11,6 +11,13 @@ var axios = require("axios");
 // Require models
 var db = require("./models");
 
+// Connect to the Mongo DB
+mongoose.Promise = Promise;
+mongoose.connect("mongodb://yirklum:Ihatebutterflies1@ds139921.mlab.com:39921/heroku_ztzgq858");
+
+var MONGODB_URI = process.env.MONGODB_URI;
+
+
 // Choose port
 var PORT = 3000;
 
