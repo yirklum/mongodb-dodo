@@ -1,12 +1,44 @@
+
 body { 
-  /* background-color: #F2F6D0  */
+  background-color: purple;
+  font-family: 'Patrick Hand';
+  font-size: 20px;
+}
+
+.title {
+  font-family: 'Luckiest Guy';
+  color: white;
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.banner {
+  margin-left: 8%;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  height: 200px;
+}
+
+.tagline {
+  color: white;
+  font-size: 36px;
+  margin-top: 0px;
+  margin-left: 20%;
 }
 
 #wrapper {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5%;
+  
 }
 
 #articles {
@@ -24,7 +56,9 @@ body {
 textarea, input {
   display: block;
   width: 100%;
-  /* background-color: #FCF5C7; */
+  background-color: #ffffa8;
+  padding: 10px;
+  border: solid 3px #54dacf;
 }
 
 input {
@@ -35,4 +69,53 @@ input {
 textarea {
   height: 200px;
   font-size: 18px;
+}
+
+.article-output {
+  border: solid 3px #54dacf;
+  padding: 10px;
+  background-color: white;
+}
+
+.photos img {
+  width: 250px;
+  border: solid 3px #54dacf;
+}
+
+.photos {
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: white;
+}
+
+#savenote {
+  padding: 10px;
+  font-size: 20px;
+  background-color: pink;
+  font-family: 'Patrick Hand';
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#new-scrape {
+  background-color: pink;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.button-text {
+  padding: 10px;
+  font-family: 'Patrick Hand';
+  font-size: 20px;
+}
+
+.directions {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
