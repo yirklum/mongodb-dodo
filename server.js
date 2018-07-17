@@ -12,7 +12,7 @@ var axios = require("axios");
 var db = require("./models");
 
 // Port configuration for local/Heroku
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
 
 // Connect to Mongo DB
 var MONGODB_URI = process.env.MONGODB_URI;
