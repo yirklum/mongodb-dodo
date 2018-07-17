@@ -7,6 +7,7 @@ var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
 var axios = require("axios");
+var favicon = require("serve-favicon");
 
 // Require models
 var db = require("./models");
